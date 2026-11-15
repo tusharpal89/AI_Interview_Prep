@@ -87,4 +87,3 @@ Open http://localhost:5174. API docs: http://localhost:8001/docs.
 
 - Sessions are in memory; restarting the backend clears them.
 - Voice answers are editable after transcription before you submit.
->>>>>>> aeb1b1e (Initial commit: PrepPilot - AI Interview Prep bot)
