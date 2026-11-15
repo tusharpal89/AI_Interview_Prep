@@ -49,43 +49,19 @@
 
 \begin{document}
 
-%====================== TITLE PAGE ======================
-\begin{titlepage}
-\centering
-\vspace*{0.5cm}
-
-{\large \textbf{[Your College / University Name]}\par}
-\vspace{0.2cm}
-{\normalsize Department of [Your Department]\par}
-
-\vspace{2.2cm}
-{\Huge \textbf{PrepPilot}\par}
-\vspace{0.4cm}
-{\LARGE An AI-Powered Mock Interview System\par}
-\vspace{0.3cm}
-{\large (AI Interview Prep Bot)\par}
-
-\vspace{1.6cm}
-{\large A Project Report submitted in partial fulfillment\\
-of the requirements for the course\\
-\textbf{[Course Name / Code]}\par}
-
-\vspace{2.0cm}
-\begin{tabular}{rl}
-\textbf{Submitted by:} & [Your Name] \\[4pt]
-\textbf{Roll No.:} & [Your Roll Number] \\[4pt]
-\textbf{Guide:} & [Professor / Guide Name] \\[4pt]
-\end{tabular}
-
-\vfill
-{\large \textbf{Academic Year 2025--2026}\par}
-\vspace{0.4cm}
-% \includegraphics[width=0.18\textwidth]{college_logo.png}  % optional: add your logo
-\end{titlepage}
+%====================== TITLE BLOCK (IIT-G term-project style) ======================
+\begin{center}
+  {\LARGE \textbf{PrepPilot: An AI-Powered Mock Interview System}}\\[1.1em]
+  {\large \textit{[Your Name] ([Your Roll Number])}}\\[0.45em]
+  {\normalsize Term Project Report (DA 377)}\\[1.2em]
+  {\normalsize B.Sc. (Hons) Data Science and Artificial Intelligence}\\[0.25em]
+  {\normalsize Indian Institute of Technology Guwahati, India}
+\end{center}
+\vspace{1.4em}
 
 %====================== ABSTRACT ======================
-\section*{Abstract}
-\addcontentsline{toc}{section}{Abstract}
+\begin{abstract}
+\noindent
 \textbf{PrepPilot} is an AI-powered web application that lets a candidate practise
 job interviews on demand. The user selects a target role, experience level and
 interview type; an AI interviewer then asks relevant questions one at a time. The
@@ -102,6 +78,7 @@ provides the user interface. The intelligence is powered by a Large Language Mod
 report synthesis, while \textbf{Groq Whisper} performs speech-to-text for voice
 answers. The LLM layer is provider-agnostic and can be switched to Google Gemini,
 OpenAI or a local Ollama model through configuration alone.
+\end{abstract}
 
 \newpage
 \tableofcontents

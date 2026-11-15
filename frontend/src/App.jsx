@@ -4,7 +4,10 @@ import {
   RefreshCw, Send, Sparkles, ThumbsDown, ThumbsUp, Volume2, X,
 } from 'lucide-react'
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:8001'
+// In a production build (served from the backend) the API is same-origin: use a
+// relative base so "/api/..." hits whatever host the app is served from.
+// In local dev, frontend/.env points at the separate backend dev server.
+const API = import.meta.env.PROD ? '' : (import.meta.env.VITE_API_URL || 'http://localhost:8001')
 
 const ROLES = [
   'Frontend Developer', 'Backend Developer', 'Full-Stack Developer', 'Data Scientist',

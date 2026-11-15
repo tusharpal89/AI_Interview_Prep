@@ -1,3 +1,13 @@
+---
+title: PrepPilot
+emoji: 🎤
+colorFrom: indigo
+colorTo: purple
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # PrepPilot — AI Interview Prep Bot 🎤🧠
 
 Practice mock interviews with an AI interviewer. Pick a role, answer questions
